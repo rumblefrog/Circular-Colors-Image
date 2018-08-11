@@ -24,9 +24,9 @@ async function main() {
 
 function stripHash(s) {
     if (s.indexOf('#') !== -1)
-        return s.substring(1);
+        return `${s.substring(1)}ff`;
     
-    return s;
+    return `${s}ff`;
 }
 
 main();
