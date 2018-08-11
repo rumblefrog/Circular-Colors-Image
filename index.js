@@ -10,10 +10,10 @@ async function main() {
 
         if (typeof Item === 'object') {
             Name = Item.name || stripHash(Item.color);
-            Color = parseInt(`0x${stripHash(Item.color)}`);
+            Color = parseInt(stripHash(Item.color), 16);
         } else {
             Name = stripHash(Item)
-            Color = parseInt(`0x${stripHash(Item)}`);
+            Color = parseInt(stripHash(Item), 16);
         }
 
         const Base = await Jimp.create(512, 512, Color);
