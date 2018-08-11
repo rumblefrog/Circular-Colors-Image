@@ -1,0 +1,16 @@
+{
+  "name": "circular-colors-image",
+  "version": "1.0.0",
+  "description": "A small utility that help generate circular images filled with a hex color",
+  "main": "index.js",
+  "repository": "git@github.com:RumbleFrog/Circular-Colors-Image.git",
+  "author": "RumbleFrog <xxlosttechxx@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-rc.1",
+    "jimp": "^0.3.3"
+  }
+}
