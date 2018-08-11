@@ -62,3 +62,4 @@ typings/
 
 Outputs
 out/*
+!out/.gitkeep
